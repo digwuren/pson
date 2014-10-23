@@ -1,0 +1,46 @@
+This is [[pson]], a Rubygem for converting (some) Ruby objects
+into the (hypothetical) PostScript Object Notation.  Numbers,
+strings, symbols, arrays, hashes, and Boolean values are
+supported.
+
+You can convert a supported object by calling the
+[[to_postscript]] method, and the recursive converters (for
+lists and dictionaries) follow this protocol, too.  Thus, if you
+should implement, say, PostScript transformation matrices,
+paths, or code blocks by defining a new Ruby class, you can
+provide a compatible conversion mechanism by implementing the
+same method.
+
+Note that there's no matching parser.
+
+
+== Copyright and licensing
+
+This library is copyright (c) 2014 by Andres Soolo and Knitten
+Development OÜ.  It is published as free software under the
+terms and conditions of the GNU General Public License version
+3.
+
+It is the default policy of us at Knitten Development to release
+our free software under the GPL v3, which we believe provides a
+reasonable and well-considered, if somewhat conservative,
+balance between the interests and concerns of producers,
+consumers, and prosumers of free software.  However, we realise
+that some users of our free software may be better served by
+other balances.  For this reason, Knitten Development would like
+it be known that:
+
+- we are willing to consider, on a case-by-case basis, offering
+  packages of our free software optionally also under certain
+  other open source software licenses, as certified by the Open
+  Source Initiative(tm), provided that this furthers the
+  creation or advancement of specific free software projects
+  that Knitten Development may find worthwile, at our
+  discretion; and
+
+- we are available to negotiate standard non-exclusive
+  commercial licenses for free software that we have released,
+  in exchange for a reasonable fee.
+
+For any enquiries, please write to
+<licensing@knitten-dev.co.uk>.

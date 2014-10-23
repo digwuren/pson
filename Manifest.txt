@@ -1,0 +1,5 @@
+GPL-3
+Manifest.txt
+README
+lib/pson.rb
+pson.gemspec
